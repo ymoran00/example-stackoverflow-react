@@ -1,0 +1,41 @@
+.root {
+
+    .form {
+        display: flex;
+        justify-items: center;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        margin: 15vh auto 0 auto;
+        padding: 20px;
+
+        .logo {
+            margin: 0 auto;
+        }
+
+        .captchaContainer {
+            background-color: white;
+            display: flex;
+            justify-content: center;
+
+            .captchaRoot {
+                border: solid 1px #232323;
+                width: 100%;
+                margin: 2px;
+            }
+            .captchaInput {
+                color: #121212;
+            }
+
+        }
+
+        .error {
+            display: flex;
+            align-items: flex-start;
+
+            svg {
+                margin-right: 5px;
+            }
+        }
+    }
+
+}
